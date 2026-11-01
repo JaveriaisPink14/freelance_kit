@@ -119,6 +119,44 @@ export function money(value: number, currency = "USD") {
 
 export const FEES_REVIEWED = "Fee rates last reviewed: November 2026";
 
+export const toolFaqs = {
+  fee: [
+    { q: "How do I calculate what I receive after Upwork or Fiverr fees?", a: "Subtract the platform fee percentage from the gross amount, then subtract your withdrawal fee from what is left. Enter your amount, platform and withdrawal method above and the calculator does both steps for you." },
+    { q: "What is the difference between a platform fee and a withdrawal fee?", a: "The platform fee is taken by the marketplace when you get paid for a contract. The withdrawal fee is charged by the service that moves the money to your bank, such as Wise or Payoneer. They are separate costs, so both reduce your final payout." },
+    { q: "Why does my real payout differ from the calculator?", a: "Platform rates can change by contract history, category and location, and currency conversion adds its own margin. The calculator gives a planning estimate, so confirm the current rate on the platform's official help page." },
+    { q: "Should I add fees on top of my quote?", a: "Yes, if you want to keep a target amount. Use the pricing calculator to work backwards from the payout you need to the price you should quote." },
+    { q: "Does this calculator include income tax?", a: "No. It only covers platform and withdrawal fees. Tax depends on where you live, so check your local filing rules separately." },
+  ],
+  pricing: [
+    { q: "What is the formula for pricing a freelance project?", a: "Total cost divided by one minus your fee, tax and profit percentages. Total cost is hours times hourly rate, plus expenses." },
+    { q: "Why divide instead of adding a percentage?", a: "Fees are taken from the final price, not from your cost. If your cost is $1,000 and the fee is 10%, adding 10% gives $1,100 and you keep $990. Dividing by 0.9 gives $1,111 and you keep $1,000." },
+    { q: "What should I include in expenses?", a: "Anything the project genuinely uses: software subscriptions, a share of internet and electricity, stock assets, and payment costs. Leave out costs you would pay anyway if the project did not exist." },
+    { q: "What is the effective hourly rate?", a: "It is your net profit divided by the hours the project takes. If it is lower than you expected, reduce the scope, raise the quote or cut an avoidable expense." },
+    { q: "What if my percentages add up to 100% or more?", a: "The quote becomes impossible because the fee, tax and profit would take the whole price. Lower one of the percentages until the total is clearly under 100%." },
+  ],
+  invoice: [
+    { q: "What should a freelance invoice include?", a: "Your name or studio, the client's name, an invoice number, the issue date, payment terms, a line for each piece of work, the currency and how to pay you. Add tax details if they apply where you work." },
+    { q: "How do I save the invoice as a PDF?", a: "Press the print button and choose Save as PDF as the destination in your browser's print window. Only the invoice is printed, not the rest of the page." },
+    { q: "Which currency should I invoice an international client in?", a: "Use the currency you agreed in the contract. Many freelancers invoice in USD to avoid conversion disputes, then convert on withdrawal. Check what your payment route supports." },
+    { q: "Does FreelanceKit save my invoice?", a: "No. The invoice is built in your browser and nothing is stored on our side, so keep your own copy of the PDF." },
+    { q: "Do I have to charge tax on an invoice?", a: "It depends on your country and your client's. This generator lets you add a tax percentage but does not decide your obligations, so check your local rules." },
+  ],
+  proposal: [
+    { q: "How long should a freelance proposal be?", a: "Short enough to read in about a minute. Show you understood the brief, name one relevant proof point and offer a clear next step." },
+    { q: "Is this an AI proposal writer?", a: "No. It is a template tool that arranges your job description, skills and details into a proven structure in your browser. It does not call an AI service, so you should edit the draft before sending." },
+    { q: "What should I change before sending the draft?", a: "Replace the placeholder name, add one specific example of past work and delete any sentence you would not say out loud." },
+    { q: "Can I reuse the same proposal for many jobs?", a: "Reuse the structure, not the text. Clients notice generic proposals, so rewrite the opening line to reflect their specific brief." },
+    { q: "Does the tool save the job description I paste?", a: "No. Everything stays in your browser and is not stored." },
+  ],
+  reply: [
+    { q: "How do I reply to a client with a very low budget?", a: "Thank them, state what the current budget can realistically cover, and offer a smaller scope or a separate quote for the full work. Keep the tone calm and specific." },
+    { q: "How do I handle scope creep politely?", a: "Name what was agreed, explain that the new request is extra, and offer a quote or timeline change for it. Do it early, before extra work is done." },
+    { q: "Is it okay to decline a project?", a: "Yes. A short, polite decline that thanks the client and, if possible, suggests another option protects your reputation." },
+    { q: "How quickly should I reply to a client?", a: "A reply within one working day is a good habit. A clear, short message sent on time works better than a long one sent late." },
+    { q: "Does the tool store the client message I paste?", a: "No. The draft is created in your browser and nothing is saved." },
+  ],
+};
+
 export function todayLabel() {
   return FEES_REVIEWED;
 }
