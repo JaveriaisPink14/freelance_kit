@@ -1,0 +1,68 @@
+{
+    "routes": [
+        {
+            "path": "/",
+            "title": "FreelanceKit — Free Tools for Freelancers"
+        },
+        {
+            "path": "/fee-calculator",
+            "title": "Freelance Fee Calculator"
+        },
+        {
+            "path": "/pricing-calculator",
+            "title": "Freelance Pricing Calculator"
+        },
+        {
+            "path": "/invoice-generator",
+            "title": "Invoice Generator for Freelancers"
+        },
+        {
+            "path": "/proposal-generator",
+            "title": "Proposal Template Generator"
+        },
+        {
+            "path": "/client-reply-generator",
+            "title": "Client Reply Generator"
+        },
+        {
+            "path": "/templates",
+            "title": "Freelance Templates"
+        },
+        {
+            "path": "/blog",
+            "title": "FreelanceKit Guides"
+        },
+        {
+            "path": "/blog/:slug",
+            "title": "FreelanceKit Guide"
+        },
+        {
+            "path": "/about",
+            "title": "About FreelanceKit"
+        },
+        {
+            "path": "/contact",
+            "title": "Contact FreelanceKit"
+        },
+        {
+            "path": "/privacy-policy",
+            "title": "Privacy Policy"
+        },
+        {
+            "path": "/terms",
+            "title": "Terms of Use"
+        },
+        {
+            "path": "/disclaimer",
+            "title": "Disclaimer"
+        },
+        {
+            "path": "/affiliate-disclosure",
+            "title": "Affiliate Disclosure"
+        },
+        {
+            "path": "/404",
+            "title": "Page not found"
+        }
+    ]
+}

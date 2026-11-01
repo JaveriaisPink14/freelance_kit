@@ -1,0 +1,15 @@
+{
+  "redirects": [
+    {
+      "source": "/ai-proposal-generator",
+      "destination": "/proposal-generator",
+      "permanent": true
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
