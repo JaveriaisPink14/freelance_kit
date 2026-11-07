@@ -54,7 +54,7 @@ export function SiteShell({ children, eyebrow }: Props) {
           <div className="footer-col"><h3>Resources</h3><Link href="/templates">Templates</Link><Link href="/blog">Blog & guides</Link><Link href="/about">About</Link><Link href="/contact">Contact</Link></div>
           <div className="footer-col"><h3>Good to know</h3><Link href="/privacy-policy">Privacy policy</Link><Link href="/terms">Terms of use</Link><Link href="/disclaimer">Disclaimer</Link><Link href="/affiliate-disclosure">Affiliate disclosure</Link></div>
         </div>
-        <div className="container footer-bottom"><span>© {new Date().getFullYear()} FreelanceKit. All rights reserved.</span><span>Made for the people behind the work.</span></div>
+        <div className="container footer-bottom"><span>© {new Date().getFullYear()} FreelanceKit. All rights reserved.</span><span>Made for the people behind the work.</span><a className="footer-badge" href="https://dofollow.tools" target="_blank" rel="dofollow noopener" aria-label="Featured on Dofollow.Tools"><img src="https://dofollow.tools/badge/badge_dark.svg" alt="Featured on Dofollow.Tools" loading="lazy" width="150" height="22" /></a></div>
       </footer>
     </div>
   );
