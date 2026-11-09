@@ -31,7 +31,7 @@ export function TemplatesPage() {
   ];
 
   return (
-    <SiteShell eyebrow="Resource shelf">
+    <SiteShell eyebrow="Templates">
       <Seo
         title="Free Freelance Templates: Proposals, Follow-ups & Invoices"
         description="Copy-ready freelance templates for proposals, low-budget replies, follow-ups and invoice payment reminders. Edit them until they sound like you."
@@ -62,13 +62,17 @@ export function TemplatesPage() {
 
             return (
               <article id={template.href.split("#")[1]} key={template.title} className="library-card">
-                <div className="library-card-top">
-                  <span>0{index + 1} / {template.tag}</span>
-                  <span>FreelanceKit original</span>
+                <div className="library-card-media">
+                  <img src={template.image} alt={template.title} loading="lazy" />
                 </div>
-                <h2>{template.title}</h2>
-                <p>{template.note}</p>
-                <div className="template-copy">{copyContent}</div>
+                <div className="library-card-body">
+                  <div className="library-card-top">
+                    <span>0{index + 1} / {template.tag}</span>
+                    <span>FreelanceKit original</span>
+                  </div>
+                  <h2>{template.title}</h2>
+                  <p>{template.note}</p>
+                  <div className="template-copy">{copyContent}</div>
                 <button
                   type="button"
                   className="button button-primary copy-template-btn"
@@ -99,6 +103,7 @@ export function TemplatesPage() {
                     </>
                   )}
                 </button>
+                </div>
               </article>
             );
           })}

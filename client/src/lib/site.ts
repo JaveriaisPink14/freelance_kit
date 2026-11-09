@@ -90,10 +90,10 @@ export const withdrawalRates: Record<string, number> = {
 };
 
 export const popularTemplates = [
-  { title: "Proposal for logo design", tag: "Pitch", href: "/templates#logo-proposal", note: "A focused way to show taste, process and proof." },
-  { title: "Reply to a low-budget client", tag: "Boundaries", href: "/templates#low-budget", note: "Stay warm without quietly discounting your craft." },
-  { title: "Follow-up after no response", tag: "Follow-up", href: "/templates#follow-up", note: "A short nudge that makes the next step easy." },
-  { title: "Invoice payment reminder", tag: "Get paid", href: "/templates#payment-reminder", note: "Clear language for a clean payment trail." },
+  { title: "Proposal for logo design", tag: "Pitch", href: "/templates#logo-proposal", note: "A focused way to show taste, process and proof.", image: "/logo design propsal.jpg" },
+  { title: "Reply to a low-budget client", tag: "Boundaries", href: "/templates#low-budget", note: "Stay warm without quietly discounting your craft.", image: "/low budget.jpg" },
+  { title: "Follow-up after no response", tag: "Follow-up", href: "/templates#follow-up", note: "A short nudge that makes the next step easy.", image: "/Follow-up.jpg" },
+  { title: "Invoice payment reminder", tag: "Get paid", href: "/templates#payment-reminder", note: "Clear language for a clean payment trail.", image: "/Invoice.jpg" },
 ];
 
 export const blogPosts = [
